@@ -3,7 +3,9 @@
   "private": true,
   "description": "app-node-tool",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "webui-gulp": "git+https://github.com/webyom/webui-gulp.git#v0.88.0"
+  },
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.0",
@@ -11,7 +13,6 @@
     "js-yaml": "^3.12.1",
     "through2": "^3.0.0",
     "vinyl": "^2.2.0",
-    "webui-gulp": "git+https://github.com/webyom/webui-gulp.git#v0.88.0",
     "yargs": "^13.2.2"
   }
 }
