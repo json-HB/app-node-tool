@@ -18,7 +18,7 @@ String getLocaleStringByKey(String key) {
   if (parts.length <= 1) {
     return '';
   }
-  final locale = AppInfo.locale;
+  final locale = AppInfo.locale ?? '';
   final name = parts.removeAt(0);
   LocaleGetter localeGetter = _localeMap[name + '_' + locale] ?? _localeMap[name];
   if (localeGetter != null) {
