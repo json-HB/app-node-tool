@@ -1,0 +1,28 @@
+{
+  "envs": {
+    "qa": {
+      "oss": {
+        "bucket": "public-statics-dev",
+        "endpoint": "http://oss-cn-shenzhen-internal.aliyuncs.com"
+      }
+    },
+    "production": {
+      "oss": {
+        "bucket": "public-statics-djakarta",
+        "endpoint": "http://oss-ap-southeast-5-internal.aliyuncs.com"
+      }
+    }
+  },
+  "brands": {
+    "KreditMe": {
+      "envs": {
+        "production": {
+          "oss": {
+            "bucket": "public-statics-kreditme-djakarta",
+            "endpoint": "http://oss-ap-southeast-5-internal.aliyuncs.com"
+          }
+        }
+      }
+    }
+  }
+}

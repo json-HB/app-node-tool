@@ -1,6 +1,6 @@
 const gulp = require('gulp'),
   crypto = require('crypto'),
-  deployOss = require('webui-gulp/tasks/deploy-oss').deployOss,
+  deployOss = require('./deploy-oss').deployOss,
   Vinyl = require('vinyl'),
   through = require('through2');
 
