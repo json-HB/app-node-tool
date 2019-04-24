@@ -2,7 +2,8 @@
 
 const _ = require('underscore'),
   fs = require('fs'),
-  path = require('path'),;
+  path = require('path');
+
 const DEFAULT_CONFIG = require('../config');
 
 const ENV = DEFAULT_CONFIG.envs[process.env.NODE_ENV]
